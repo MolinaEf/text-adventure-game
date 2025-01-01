@@ -1,11 +1,13 @@
 body {
     background-color: #0a0a23;
+    font-family: Roboto
   }
   
   #text {
     background-color: #0a0a23;
     color: #ffffff;
     padding: 10px;
+    border-radius: 0 0 10px 10px;
   }
   
   #game {
@@ -15,6 +17,7 @@ body {
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
+    border-radius: 10px
   }
   
   #controls,
@@ -22,6 +25,7 @@ body {
     border: 1px solid #0a0a23;
     padding: 5px;
     color: #0a0a23;
+    
   }
   
   #monsterStats {
@@ -42,4 +46,27 @@ body {
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
+    font-family: Trebuchet MS;
+    border-radius: 10px
+  }
+
+  #stats {
+    border-radius: 10px 10px 0 0;
+  }
+
+  button:active{
+    color: rgb(255,255,255) !important;
+    background-color: black;
+    background-image: none;
+    border: 3px solid #feac32;
+    border-radius: 10px;
+
+  }
+
+  button:hover{
+    background-color: rgb(241, 146, 102) ;
+    background-image: none;
+    border: 3px solid #feac32;
+    border-radius: 10px;
+
   }
